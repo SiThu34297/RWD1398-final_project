@@ -1,0 +1,223 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     user-select: none;
+     font-family: 'Roboto', sans-serif;
+}
+header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     background-color: black;
+     line-height: 3;
+     border-bottom: 4px solid #d3324d;
+     padding: 0px 20px;
+}
+/* header logo */
+header .logo h1{
+     color: #d3324d;
+}
+header .logo h1 span{
+     color: white;
+}
+/* header search box */
+header .search_box input{
+          width: 400px;
+          height: 30px;
+          border: none;
+          outline: none;
+          padding-left: 5px;
+          font-size: 15px;
+          font-weight: 900;
+}
+header .search_box button{
+     width: 50px;
+     height: 30px;
+     border: none;
+     outline: none;
+     font-size: 15px;
+     color: #d3324d;
+     cursor: pointer;
+}
+header .search_box button:hover{
+     background-color: #d3324d;
+     color: white;
+}
+/* header menu_item */
+header .menu_item i{
+     padding-left: 40px;
+     font-size: 15px;
+     color: #d3324d;
+     cursor: pointer;
+     text-align: center;
+     margin-top: 15px;
+}
+header .menu_item i span{
+     /* display: block; */
+     font-weight: 700;
+     margin-top: 1px;
+}
+header .menu_item .fa-bars{
+     display: none;
+}
+header .menu_item i:hover{
+          color: white;
+}
+header .menu_item .fa-user-circle{
+     position: relative;
+}
+header .menu_item .logout-btn{
+     position: absolute;
+     top: 110%;
+     left: 10px;
+     z-index: 1;
+     width: 70px;
+     height: 50px;
+     background-color: gray;
+}
+header .menu_item .logout-active{
+     display: none;
+}
+header .menu_item button{
+     padding: 5px;
+     margin-top: 10px;
+     cursor: pointer;
+     outline: none;
+}
+header .menu_item button:hover{
+     background-color: black;
+     color: white;
+     border: 1px solid black;
+}
+/* navbar */
+.navbar{
+     border-bottom: 2px solid rgba(184, 175, 175, 0.274);
+}
+.navbar ul{
+     display: flex;
+     justify-content: center;
+     list-style-type: none;
+}
+.navbar ul li{
+     padding: 20px 0px;
+}
+.navbar ul li a{
+     margin-right: 20px;
+     text-decoration: none;
+     color: #d3324d;
+     text-transform: uppercase;
+     font-weight: 900;
+}
+.navbar ul li .active{
+     color: black;
+     border-bottom: 1px solid black;
+}
+.navbar ul li a:hover{
+     color: black;
+     border-bottom: 1px solid black;
+}
+/* navbar slide */
+.slideBar{
+     position: fixed;
+     top: 0;
+     left: -300px;
+     width: 300px;
+     height: 100vh;
+     background-color: black;
+     transition: .4s;
+     z-index: 2;
+}
+.slideBar.active{
+     left : 0px;
+}
+.slideBar .slideNavbar{
+     position: absolute;
+     top: 10%;
+     left: 0;
+     width: 100%;
+}
+.slideBar .slideNavbar ul{
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+     list-style-type: none;
+}
+.slideBar .slideNavbar ul li{
+     padding: 30px 0px;
+}
+.slideBar .slideNavbar ul li a{
+     display: block;
+     text-decoration: none;
+     color: #d3324d;
+     text-transform: uppercase;
+     font-weight: 900;
+     padding-left: 5px;
+}
+.slideBar .slideNavbar ul li a:hover{
+     color: white;
+     border-bottom: 1px solid white;
+}
+.slideBar .slideNavbar ul li .active{
+     color: white;
+     border-bottom: 1px solid white;
+}
+/* support device */
+@media(max-width : 1084px){
+     header{
+          flex-direction: column;
+     }
+     header .logo{
+          width: 100%;
+          text-align: left;
+     }
+     header .search_box{
+          width: 100%;
+          text-align: center;
+          margin-bottom: 20px;
+     }
+     header .menu_item {
+          width: 100%;
+          text-align: right;
+     }
+     header .menu_item i{
+          margin-top: 0px;
+     }
+     .navbar{
+          display: none;
+     }
+     header .menu_item .fa-bars{
+          display: inline-block;
+     }
+}
+@media (max-width : 493px){
+     header .search_box input{
+          width: 300px;
+     }
+     header .menu_item {
+          width: 100%;
+          text-align: center;
+     }
+     header .menu_item i{
+          padding: 0px 10px;
+     }
+     .slideBar{
+          width: 200px;
+     }
+}
+@media (max-width : 399px){
+     header .search_box input{
+          width: 250px;
+     }
+}
+@media (max-width : 341px){
+     header .search_box input{
+          width: 200px;
+     }
+}
+@media (max-width : 302px){
+     header .search_box input{
+          width: 100px;
+     }
+}

@@ -1,0 +1,131 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.productNav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     border-bottom: 2px solid gray;
+}
+input[type="radio"]{
+      display: none; 
+}
+section{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+section .labelCon label{
+     margin: 20px;
+     font-size: 20px;
+     text-transform: uppercase;
+     font-weight: 700;
+     cursor: pointer;
+     color: #d3324d;
+}
+section .labelCon label:hover{
+    color: burlywood;
+}
+section .productCon{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     position: relative;
+     justify-content: center;
+}
+section .productCon .detail-box{
+     width: 250px;
+     margin: 0px 20px 20px 0px;
+     box-shadow: 0px 10px 8px 0px rgba(0,0,0,0.73);
+     border-radius: 10px;
+}
+section .productCon .detail-box:hover{
+     transform: translateY(-5px);
+}
+section .productCon .detail-box img{
+     width: 100%;
+}
+section .productCon .detail-box .img-text{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+}
+section .productCon .detail-box .img-text span{
+     margin-bottom: 15px;
+     font-size: 15px;
+     font-weight: 900;
+}
+section .productCon .detail-box .img-text .btn {
+     font-size: 20px;
+}
+section .productCon .detail-box .img-text .btn i{
+     cursor: pointer;
+}
+#check1:checked ~ section .productCon .detail-box {
+     opacity: 1;
+     position: relative;
+}
+#check2:checked ~ section .productCon .BodySkinCare{
+    opacity: 1;
+    position: relative;
+}
+#check2:checked ~ section .productCon .MakeUp ,
+#check2:checked ~ section .productCon .SkinCare {
+     opacity: 0;
+     position: absolute;
+}
+#check3:checked ~ section .productCon .MakeUp{
+     opacity: 1;
+     position: relative;
+}
+#check3:checked ~ section .productCon .BodySkinCare ,
+#check3:checked ~ section .productCon .SkinCare 
+{
+     opacity: 0;
+     position: absolute;
+}
+#check4:checked ~ section .productCon .SkinCare{
+     opacity: 1;
+     position: relative;
+}
+#check4:checked ~ section .productCon .BodySkinCare ,
+#check4:checked ~ section .productCon .MakeUp
+{
+     opacity: 0;
+     position: absolute;
+}
+@media (max-width : 1084px){
+     section .productCon{
+          flex-wrap: wrap;
+     }
+}
+@media (max-width : 550px){
+     section .productCon .detail-box{
+          width: 80%;
+     }
+}
+@media (max-width : 634px){
+     section .labelCon label{
+          font-size: 15px;
+     }
+}
+@media (max-width : 550px){
+     section .labelCon label{
+          margin: 10px;
+          font-size: 15px;
+     }
+}
+ @media (max-width : 450px){
+     section .labelCon label{
+          margin: 5px;
+          font-size: 10px;
+     }
+} 

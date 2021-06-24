@@ -1,0 +1,83 @@
+[
+     {
+          "itemID" : "1" ,
+          "itemName" : "Body Hero Dry-Touch Oil Mist" ,
+          "category" : "BodySkinCare" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$28" ,
+          "specialPrice" : "$20" ,
+          "image" : "./photo/body_image_1.webp"
+     },
+     {
+          "itemID" : "2" ,
+          "itemName" : "Body Hero Daily Perfecting Cream" ,
+          "category" : "BodySkinCare" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$22" ,
+          "specialPrice" : "$20" ,
+          "image" : "./photo/body_image_2.webp"
+     },
+     {
+          "itemID" : "3" ,
+          "itemName" : "Body Hero Daily Oil Wash" ,
+          "category" : "BodySkinCare" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$18" ,
+          "specialPrice" : "$15" ,
+          "image" : "./photo/body_image_3.webp"
+     },
+     {
+          "itemID" : "4" ,
+          "itemName" : "Ultralip" ,
+          "category" : "MakeUp" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$18" ,
+          "specialPrice" : "$16" ,
+          "image" : "./photo/make_up_image_1.webp"
+     },
+     {
+          "itemID" : "5" ,
+          "itemName" : "Stretch Concealer" ,
+          "category" : "MakeUp" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$18" ,
+          "specialPrice" : "$17" ,
+          "image" : "./photo/make_up_image_2.webp"
+     },
+     {
+          "itemID" : "6" ,
+          "itemName" : "Boy Brow" ,
+          "category" : "MakeUp" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$16" ,
+          "specialPrice" : "$15" ,
+          "image" : "./photo/make_up_image_3.webp"
+     },
+     {
+          "itemID" : "7" ,
+          "itemName" : "Milky Jelly Cleanser" ,
+          "category" : "SkinCare" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$9" ,
+          "specialPrice" : "$8" ,
+          "image" : "./photo/skillCare_image_1.webp"
+     },
+     {
+          "itemID" : "8" ,
+          "itemName" : "Milky Jelly Cleanser" ,
+          "category" : "SkinCare" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$25" ,
+          "specialPrice" : "$24" ,
+          "image" : "./photo/skillCare_image_2.webp"
+     },
+     {
+          "itemID" : "9" ,
+          "itemName" : "Invisible Shield" ,
+          "category" : "SkinCare" ,
+          "isInShock" : "InShock" ,
+          "Price" : "$25" ,
+          "specialPrice" : "$23" ,
+          "image" : "./photo/skillCare_image_3.webp"
+     }
+]

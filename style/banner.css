@@ -1,0 +1,45 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* banner */
+.banner{
+     background-image: url("/photo/bannerimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     min-height: 450px;
+     margin: auto;
+     position: relative;
+}
+.banner .text-box{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     width: 100%;
+     height: 200px;
+}
+.banner .text-box h1{
+     font-size: 50px;
+     color: #FFFFFF ;
+}
+.banner .text-box h3{
+     font-size: 50px;
+     color: #FFFFFF ;
+     margin-bottom: 40px;
+}
+.banner .text-box a{
+     text-decoration: none;
+     color: #FFFFFF;
+     border: 1px solid #FFFFFF;
+     padding: 10px 20px;
+     font-size: 15px;
+}
+.banner .text-box a:hover{
+     background-color: #d3324d;
+     border: 1px solid #d3324d;
+}

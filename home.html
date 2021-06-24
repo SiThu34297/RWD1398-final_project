@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Glow-Getter</title>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style/product.css">
+     <link rel="stylesheet" href="style/header_nav.css">
+     <link rel="stylesheet" href="style/banner.css">
+     <link rel="stylesheet" href="style/special_offer.css">
+     <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+     <!-- header -->
+     <header>
+          <!-- logo -->
+          <div class="logo">
+               <h1>Glow-<span>Getter</span></h1>
+          </div>
+          <!-- search box -->
+          <div class="search_box">
+               <input type="text" name="input" id="input_box">
+               <button id="search_btn">
+                    <i class="fas fa-search"></i>
+               </button>
+          </div>
+          <!-- Menu item -->
+          <div class="menu_item">
+               <i class="fas fa-shopping-cart">
+                    <span>Card</span>
+               </i>
+               <i class="fas fa-user-circle">
+                    <!-- <span>Sithu</span> take username localStorage -->
+                    <div class="logout-btn logout-active">
+                         <button id="btn-logout">Log Out</button>
+                    </div>
+               </i>
+               <i class="fas fa-bars">
+                    <span>Menu</span>
+               </i>
+          </div>
+     </header>
+     <!-- navbar -->
+     <nav>
+          <div class="navbar">
+               <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Special Offer</a></li>
+                    <li><a href="#">About</a></li>
+               </ul>
+          </div>
+     </nav>
+     <!-- slideBar -->
+     <div class="slideBar">
+          <div class="slideNavbar">
+               <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Special Offer</a></li>
+                    <li><a href="#">About</a></li>
+               </ul>
+          </div>
+     </div>
+     <!-- banner div in main css -->
+     <div class="banner">
+          <div class="text-box">
+               <h1>New Collection</h1>
+               <h3>2021</h3>
+               <a href="#">Shop Prodcut</a>
+          </div>
+     </div>
+     <!-- control product -->
+     <input type="radio" id="check1" name="Photo" checked>
+     <input type="radio" id="check2" name="Photo">
+     <input type="radio" id="check3" name="Photo">
+     <input type="radio" id="check4" name="Photo">
+     <!-- product Div -->
+     <section>
+          <div class="labelCon">
+               <label for="check1">All Product</label>
+               <label for="check2">Body Skin</label>
+               <label for="check3">Make Up</label>
+               <label for="check4">Skin Care</label>
+          </div>
+          <div class="productCon">
+               <!-- from json data -->
+          </div> 
+     </section>    
+     <!-- special offer -->
+     <section class="special-offer">
+          <h1>Special Offer</h1>
+        <div class="special">
+             <!-- prodcut From discount.json -->
+        </div> 
+     </section>
+     <!-- footer -->
+     <div class="signup">
+          <h1>Sign Up for the <span>New Special Offer</span></h1>
+          <input type="email" name="email" />
+          <button>Send</button>
+     </div>
+     <footer>
+          <div class="about-us">
+               <span>About Us</span>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nisi iure illum eum rerum aliquam necessitatibus.</p>
+               <i class="fa fa-map-marker"> 34 Hlaing</i>
+               <i class="fa fa-phone"> +01-09999</i>
+               <i class="fa fa-envelope"> email@gamil.com</i>
+          </div>
+          <div class="category">
+               <span>Categories</span>
+               <ul>
+                    <li><a href="#"> Body Skin</a> </li>
+                    <li><a href="#">Make Up</a>  </li>
+                    <li><a href="#">Skin Care</a> </li>
+                    <li><a href="#">Special Offer</a> </li>
+               </ul>
+          </div>
+          <div class="information">
+               <span>Information</span>
+               <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditons</a></li>
+               </ul>
+          </div>
+          <div class="service">
+               <span>Service</span>
+               <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">View Cart</a></li>
+                    <li><a href="#">Help</a></li>
+               </ul>
+          </div>
+     </footer>
+     
+     <script src="./javascript/discount.js"></script>
+     <script src="./javascript/home.js"></script>
+     <script src="./javascript/product.js"></script>
+</body>
+</html>

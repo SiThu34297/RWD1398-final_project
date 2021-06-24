@@ -1,0 +1,26 @@
+[
+     {
+          "itemID" : "1" ,
+          "itemName" : "Body Hero Dry-Touch Oil Mist" ,
+          "Price" : "$28" ,
+          "DiscountP" : "$26.60" ,
+          "DiscountPer" : "-5%",
+          "image" :"./photo/body_image_1.webp"
+     },
+     {
+          "itemID" : "2" ,
+          "itemName" : "Ultralip" ,
+          "Price" : "$18" ,
+          "DiscountP" : "$17.46" ,
+          "DiscountPer" : "-3%",
+          "image" :"./photo/make_up_image_1.webp"
+     },
+     {
+          "itemID" : "3" ,
+          "itemName" : "Invisible Shield" ,
+          "Price" : "$25" ,
+          "DiscountP" : "$22.50" ,
+          "DiscountPer" : "-10%",
+          "image" :"./photo/skillCare_image_3.webp"
+     }
+]

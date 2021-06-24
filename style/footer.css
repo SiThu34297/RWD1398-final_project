@@ -1,0 +1,85 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.signup{
+     min-height: 150px;
+     margin: auto;
+     text-align: center;
+}
+.signup h1{
+     color: rgb(141, 134, 134);
+     margin-bottom: 10px;
+}
+.signup h1 span{
+     display: block;
+     color: black;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+.signup input{
+     width: 200px;
+     height: 30px;
+     outline: none;
+}
+.signup button{
+     width: 50px;
+     height: 30px;
+     outline: none;
+}
+footer{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     min-height: 200px;
+     padding: 20px;
+     background-color: rgb(3, 3, 19);
+}
+footer .about-us , footer .category , footer .information , footer .service{
+     width: 25%;
+     line-height: 2;
+     padding: 0px 30px 10px 0px;
+}
+footer ul {
+     list-style-type: none;
+}
+footer ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 15px;
+}
+footer span{
+     font-size: 20px;
+     text-transform: uppercase;
+     color: white;
+     font-weight: 900;
+}
+footer .about-us p{
+     color: white;
+     font-size: 15px;
+}
+footer .about-us i{
+     display: block;
+     color: red;
+     margin: 20px 0px;
+}
+@media(max-width : 1024px){
+     footer{
+          flex-wrap: wrap;
+     }
+     /* footer .about-us , footer .category , footer .information , footer .service{
+          width: 50%;
+     } */
+}
+@media(max-width:690px){
+     footer .about-us , footer .category , footer .information , footer .service{
+          width: 50%;
+     }
+}
+@media(max-width:548px){
+     footer .about-us , footer .category , footer .information , footer .service{
+          width: 100%;
+     }
+}
